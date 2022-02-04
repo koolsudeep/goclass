@@ -2,6 +2,7 @@ package structure
 
 import "fmt"
 
+// working with struct
 type person struct {
 	name    string
 	age     uint8
