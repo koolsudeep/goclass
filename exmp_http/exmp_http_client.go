@@ -19,5 +19,5 @@ func hello(w http.ResponseWriter, req *http.Request) {
 	if value, ok := req.Header["Accept"]; ok {
 		fmt.Println("header =", value)
 	}
-	w.Write([]byte("Hello"))
+	w.Write([]byte("Hello, world"))
 }
